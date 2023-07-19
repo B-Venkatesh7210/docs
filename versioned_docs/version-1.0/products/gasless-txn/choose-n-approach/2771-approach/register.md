@@ -8,7 +8,7 @@ sidebar_position: 2
 
 ## Register Smart Contracts
 
-::info
+:::info
 [Checkout this section](https://docs-gasless.biconomy.io/guides/biconomy-dashboard#register-a-dapp) if you don't know how to register a dApp on the dashboard.
 :::
 
