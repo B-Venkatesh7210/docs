@@ -46,6 +46,7 @@ export default function Home(): JSX.Element {
       title={`The Biconomy SDK`}
       description="Documentation, tutorials, and guides for implmentation of the Biconomy SDK">
       <Head>
+        <meta property="og:url" content="https://docs.biconomy.io/" />
         <meta prefix="og: http://ogp.me/ns#" /> 
       </Head>
       <HomepageHeader />
