@@ -19,7 +19,7 @@ To obtain an authToken required in the header, please reach out to our support t
 
 > ***GET Request***
 
-URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/dapp
+URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/dapp/users
 
 Parameters
 
@@ -68,7 +68,7 @@ Responses
 
 > ***POST Request***
 
-URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/dapp
+URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/dapp/users
 
 Parameters
 
@@ -145,7 +145,7 @@ Alternatively, if you already have a DApp registered, you can find the "apiKey" 
 
 > ***POST Request***
 
-URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/smart-contract
+URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/smart-contract/users
 
 Parameters
 
@@ -203,7 +203,7 @@ Smart Contract Already Exists
 
 > ***GET Request***
 
-URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/smart-contract
+URL: https://paymaster-dashboard-backend.prod.biconomy.io/api/v1/public/sdk/smart-contract/users
 
 Parameters
 
