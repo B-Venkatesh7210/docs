@@ -1,5 +1,6 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import tailwindPlugin from "./plugins/tailwind-config.cjs";
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
@@ -203,6 +204,7 @@ const config = {
         redirects: redirectsList,
       },
     ],
+    tailwindPlugin,
     [
       "@docusaurus/plugin-content-docs",
       {
