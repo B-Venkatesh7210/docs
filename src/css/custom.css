@@ -3,6 +3,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -44,4 +45,13 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
